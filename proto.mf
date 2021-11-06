@@ -3,7 +3,7 @@ mode_setup;
 def number(expr a,b) =
   draw (a,2*b)--(a,b);
   draw (3*a,2*b)--(3*a,0)--(5*a,0);
-end;
+enddef;
 
 pickup pencircle scaled 0.2pt;
 
