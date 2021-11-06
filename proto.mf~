@@ -5,11 +5,11 @@ def number(expr a,b) =
   draw (3*a,0)--(3*a,2*b)--(5*a,2*b);
 enddef;
 
-def n1(expr a,b) =
+def na(expr a,b) =
   draw (4*a,2*b)--(4*a,b);
 enddef;
 
-def n2(expr a,b) =
+def nb(expr a,b) =
   draw (5*a,2*b)--(5*a,b);
 enddef;
 
@@ -25,7 +25,7 @@ beginchar("1", 12pt#, 12pt#, 0);
   a := h/5;
   b := w/2;
   number(a,b);
-  n1(a,b);
+  na(a,b);
 endchar;
 
 beginchar("2", 12pt#, 12pt#, 0);
@@ -33,7 +33,7 @@ beginchar("2", 12pt#, 12pt#, 0);
   a := h/5;
   b := w/2;
   number(a,b);
-  n2(a,b);
+  nb(a,b);
 endchar;
 
 beginchar ("a", 9pt#, 12pt#, 0);
