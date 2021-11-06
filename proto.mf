@@ -1,0 +1,23 @@
+mode_setup;
+
+def number(expr a,b) =
+  draw (a,2*b)--(a,b);
+  draw (3*a,2*b)--(3*a,0)--(5*a,0);
+end;
+
+pickup pencircle scaled 0.2pt;
+
+beginchar("0", 12pt#, 12pt#, 0);
+  a := h/5;
+  b := w/2;
+  number(a,b);
+endchar;
+
+beginchar("1", 12pt#, 12pt#, 0);
+  a := h/5;
+  b := w/2;
+  number(a,b);
+  draw(4*a,0)--(4*a,b);
+endchar;
+
+end
