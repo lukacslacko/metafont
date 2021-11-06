@@ -25,14 +25,14 @@ def ne(expr a,b) =
   draw (0,2*b)--(0,b);
 enddef;
 
-beginchar("0", 16pt#, 10pt#, 0);
+beginchar("0", 10pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/6;
   b := w/2;
   number(a,b);
 endchar;
 
-beginchar("1", 16pt#, 10pt#, 0);
+beginchar("1", 10pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/6;
   b := w/2;
@@ -40,7 +40,7 @@ beginchar("1", 16pt#, 10pt#, 0);
   na(a,b);
 endchar;
 
-beginchar("2", 12pt#, 10pt#, 0);
+beginchar("2", 10pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/6;
   b := w/2;
@@ -48,7 +48,7 @@ beginchar("2", 12pt#, 10pt#, 0);
   nb(a,b);
 endchar;
 
-beginchar("3", 12pt#, 10pt#, 0);
+beginchar("3", 10pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/6;
   b := w/2;
@@ -56,7 +56,7 @@ beginchar("3", 12pt#, 10pt#, 0);
   nc(a,b);
 endchar;
 
-beginchar("4", 12pt#, 10pt#, 0);
+beginchar("4", 10pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/6;
   b := w/2;
@@ -64,7 +64,7 @@ beginchar("4", 12pt#, 10pt#, 0);
   nd(a,b);
 endchar;
 
-beginchar("5", 12pt#, 10pt#, 0);
+beginchar("5", 10pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/6;
   b := w/2;
@@ -73,7 +73,7 @@ beginchar("5", 12pt#, 10pt#, 0);
   nd(a,b);
 endchar;
 
-beginchar("6", 12pt#, 10pt#, 0);
+beginchar("6", 10pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/6;
   b := w/2;
@@ -82,7 +82,7 @@ beginchar("6", 12pt#, 10pt#, 0);
   nd(a,b);
 endchar;
 
-beginchar("7", 12pt#, 10pt#, 0);
+beginchar("7", 10pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/6;
   b := w/2;
