@@ -94,6 +94,80 @@ beginchar("7", 10pt#, 12pt#, 0);
   nd(a,b);
 endchar;
 
+beginchar("8", 10pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/6;
+  b := w/2;
+  number(a,b);
+  ne(a,b);
+endchar;
+
+beginchar("9", 10pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/6;
+  b := w/2;
+  number(a,b);
+  na(a,b);
+  ne(a,b);
+endchar;
+
+beginchar("A", 10pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/6;
+  b := w/2;
+  number(a,b);
+  nb(a,b);
+  ne(a,b);
+endchar;
+
+beginchar("B", 10pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/6;
+  b := w/2;
+  number(a,b);
+  nc(a,b);
+  ne(a,b);
+endchar;
+
+beginchar("C", 10pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/6;
+  b := w/2;
+  number(a,b);
+  nd(a,b);
+  ne(a,b);
+endchar;
+
+beginchar("D", 10pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/6;
+  b := w/2;
+  number(a,b);
+  na(a,b);
+  nd(a,b);
+  ne(a,b);
+endchar;
+
+beginchar("E", 10pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/6;
+  b := w/2;
+  number(a,b);
+  nb(a,b);
+  nd(a,b);
+  ne(a,b);
+endchar;
+
+beginchar("F", 10pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/6;
+  b := w/2;
+  number(a,b);
+  nc(a,b);
+  nd(a,b);
+  ne(a,b);
+endchar;
+
 beginchar ("a", 9pt#, 12pt#, 0);
   alpha:=0.65;
   beta:=0.24;
