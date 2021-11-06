@@ -19,6 +19,7 @@
 \newcommand{\JEE}{\LET Z}
 \newcommand{\NE}{\LET a}
 \newcommand{\MOE}{\LET b}
+\newcommand{\KI}{\LET c}
 
 \newcommand{\SP}{\LET Y}
 
@@ -35,10 +36,10 @@
 \DIGC\ \DIGD\ \DIGE\ \DIGF\ \VU\ \YOE
 }
 \UP{
-\VU\ \YOE\ \JEE\ \NE\ \MOE\ \SP\
+\VU\ \YOE\ \JEE\ \NE\ \MOE\ \KI\
 }
 \DOWN{
-\SP\ \MOE\ \NE\ \JEE\ \YOE\ \VU
+\KI\ \MOE\ \NE\ \JEE\ \YOE\ \VU
 }
 Did this work?
 

@@ -386,4 +386,16 @@ beginchar("b", 10pt#, 10pt#, 0);
   draw (2*a,2*b)--(3.5*a,2*b);
 endchar;
 
+% ki
+beginchar("c", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  a:=w/4;
+  b:=h/4;
+  draw (0,0)--(0,h/2);
+  draw (0,h/2)--(w,h/2);
+  draw (w/2,h/2)--(w/2,0);
+  draw (a,h/2)--(a,h);
+  draw (3*a,h/2)--(w,h);
+endchar;
+
 end

@@ -360,4 +360,30 @@ beginchar("Z", 10pt#, 10pt#, 0);
   draw (w*0.75,h/2)--(w*0.85,h);
 endchar;
 
+% ne
+beginchar("a", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (w/2,0)--(w/2,h);
+  draw (w*0.75,0)--(w*0.75,h);
+  draw (w/8,h*3/8)--(w/2,0);
+  draw (w/8,h*3/8)--(w/2,h*3/8);
+endchar;
+
+% moe
+beginchar("b", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  a:=w/5;
+  b:=h/5;
+  draw (a,b)--(a,h);
+  draw (a,b)--(4*a,b);
+  draw (a,b)--(1.5*a,0);
+  draw (1.5*a,0)--(4*a,b);
+  draw (2*a,h)--(2*a,h/2);
+  draw (3*a,h)--(3*a,3*b);
+  draw (4*a,b)--(w,2*b);
+  draw (w,2*b)--(w,h);
+  draw (w,2*b)--(4*a,h);
+  draw (2*a,2*b)--(3.5*a,2*b);
+endchar;
+
 end
