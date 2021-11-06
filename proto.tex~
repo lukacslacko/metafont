@@ -1,19 +1,23 @@
+
 \documentclass[a4paper]{article}
 \newfont{\foo}{proto}
+\usepackage{graphicx}
 
 \begin{document}
 
-Hello world. $f(x)=x^2$.
+\newcommand{\DIG}[1]{\reflectbox{\foo #1}}
+\newcommand{\DIGA}{\DIG{A}}
+\newcommand{\DIGB}{\DIG{B}}
 
-
-{\foo 0 1 2 3 4 5 6 7 8 9 A B C D E F}
-
-
-{\foo G H I J K L M N O P Q R S T U V}
-
-
+\rotatebox{-90}{
+\DIG0 \DIG1 \DIG2 \DIG3 \DIG4 \DIG5
+}
+\rotatebox{-90}{
+\reflectbox{\DIG6 \DIG7 \DIG8 \DIG9 \DIGA\ \DIGB}
+}
+\rotatebox{-90}{
+\DIGC\ \DIGD\ \DIGE\ \DIGF
+}
 Did this work?
-{\foo a}
-This is an a.
 
 \end{document}
