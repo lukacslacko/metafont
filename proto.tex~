@@ -1,8 +1,10 @@
 \documentclass[a4paper]{article}
-\newfont{\foo}{proto}
+%\newfont{\foo}{proto}
 
 \begin{document}
 
+Hello world. $f(x)=x^2$.
 {\foo 0 1 0 1}
+Did this work?
 
 \end{document}
