@@ -7,14 +7,14 @@ enddef;
 
 
 beginchar("0", 12pt#, 12pt#, 0);
-  pickup pencircle scaled 0.2pt;
+  pickup pencircle scaled 1;
   a := h/5;
   b := w/2;
   number(a,b);
 endchar;
 
 beginchar("1", 12pt#, 12pt#, 0);
-  pickup pencircle scaled 0.2pt;
+  pickup pencircle scaled 1;
   a := h/5;
   b := w/2;
   number(a,b);
