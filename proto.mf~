@@ -13,6 +13,18 @@ def nb(expr a,b) =
   draw (5*a,2*b)--(5*a,b);
 enddef;
 
+def nc(expr a,b) =
+  draw (3*a,b)--(5*a,b);
+enddef;
+
+def nd(expr a,b) =
+  draw (2*a,2*b)--(2*a,b);
+enddef;
+
+def ne(expr a,b) =
+  draw (0,2*b)--(0,b);
+enddef;
+
 beginchar("0", 12pt#, 12pt#, 0);
   pickup pencircle scaled 5;
   a := h/5;
@@ -34,6 +46,49 @@ beginchar("2", 12pt#, 12pt#, 0);
   b := w/2;
   number(a,b);
   nb(a,b);
+endchar;
+
+beginchar("3", 12pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/5;
+  b := w/2;
+  number(a,b);
+  nc(a,b);
+endchar;
+
+beginchar("4", 12pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/5;
+  b := w/2;
+  number(a,b);
+  nd(a,b);
+endchar;
+
+beginchar("5", 12pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/5;
+  b := w/2;
+  number(a,b);
+  na(a,b);
+  nd(a,b);
+endchar;
+
+beginchar("6", 12pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/5;
+  b := w/2;
+  number(a,b);
+  nb(a,b);
+  nd(a,b);
+endchar;
+
+beginchar("7", 12pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/5;
+  b := w/2;
+  number(a,b);
+  nc(a,b);
+  nd(a,b);
 endchar;
 
 beginchar ("a", 9pt#, 12pt#, 0);
