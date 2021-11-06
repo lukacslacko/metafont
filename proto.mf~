@@ -1,10 +1,17 @@
 mode_setup;
 
 def number(expr a,b) =
-  draw (a,2*b)--(a,b);
-  draw (3*a,2*b)--(3*a,0)--(5*a,0);
+  draw (a,0)--(a,b);
+  draw (3*a,0)--(3*a,2*b)--(5*a,2*b);
 enddef;
 
+def n1(expr a,b) =
+  draw (4*a,2*b)--(4*a,b);
+enddef;
+
+def n2(expr a,b) =
+  draw (5*a,2*b)--(5*a,b);
+enddef;
 
 beginchar("0", 12pt#, 12pt#, 0);
   pickup pencircle scaled 5;
@@ -18,6 +25,15 @@ beginchar("1", 12pt#, 12pt#, 0);
   a := h/5;
   b := w/2;
   number(a,b);
+  n1(a,b);
+endchar;
+
+beginchar("2", 12pt#, 12pt#, 0);
+  pickup pencircle scaled 5;
+  a := h/5;
+  b := w/2;
+  number(a,b);
+  n2(a,b);
 endchar;
 
 beginchar ("a", 9pt#, 12pt#, 0);
