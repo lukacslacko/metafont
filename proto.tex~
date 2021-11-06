@@ -3,8 +3,6 @@
 
 \begin{document}
 
-Hello world.
 {\foo 0 1 0 1}
-Did this work?
 
 \end{document}
