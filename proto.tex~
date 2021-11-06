@@ -1,5 +1,5 @@
 \documentclass[a4paper]{article}
-%\newfont{\foo}{proto}
+\newfont{\foo}{proto}
 
 \begin{document}
 
