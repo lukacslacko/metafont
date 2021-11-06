@@ -16,8 +16,7 @@ endchar;
 beginchar("1", 12pt#, 12pt#, 0);
   a := h/5;
   b := w/2;
-  draw(4*a,0)--(4*a,b);
-  draw (0,0)--(w,h);
+  number(a,b);
 endchar;
 
 beginchar ("a", 9pt#, 12pt#, 0);
