@@ -4,52 +4,52 @@ font_size 10pt#;
 font_normal_space 4pt#;
 
 def number(expr a,b) =
-  draw (a,0)--(a,b);
-  draw (3*a,0)--(3*a,2*b)--(5*a,2*b);
+  draw (0,a)--(b,a);
+  draw (0,3*a)--(2*b,3*a)--(2*b,5*a);
 enddef;
 
 def na(expr a,b) =
-  draw (4*a,2*b)--(4*a,b);
+  draw (2*b,4*a)--(b,4*a);
 enddef;
 
 def nb(expr a,b) =
-  draw (5*a,2*b)--(5*a,b);
+  draw (2*b,5*a)--(b,5*a);
 enddef;
 
 def nc(expr a,b) =
-  draw (3*a,b)--(5*a,b);
+  draw (b,3*a)--(b,5*a);
 enddef;
 
 def nd(expr a,b) =
-  draw (2*a,2*b)--(2*a,b);
+  draw (2*b,2*a)--(b,2*a);
 enddef;
 
 def ne(expr a,b) =
-  draw (0,2*b)--(0,b);
+  draw (2*b,0)--(b,0);
 enddef;
 
 def nf(expr a,b) =
-  draw (5*a,b)--(5*a,0);
+  draw (b,5*a)--(0,5*a);
 enddef;
 
-beginchar("0", 10pt#, 12pt#, 0);
+beginchar("0", 10pt#, 10pt#, 0);
   pickup pencircle scaled 5;
-  a := h/6;
+  a := h/5;
   b := w/2;
   number(a,b);
 endchar;
 
-beginchar("1", 10pt#, 12pt#, 0);
+beginchar("1", 10pt#, 10pt#, 0);
   pickup pencircle scaled 5;
-  a := h/6;
+  a := h/5;
   b := w/2;
   number(a,b);
   na(a,b);
 endchar;
 
-beginchar("2", 10pt#, 12pt#, 0);
+beginchar("2", 10pt#, 10pt#, 0);
   pickup pencircle scaled 5;
-  a := h/6;
+  a := h/5;
   b := w/2;
   number(a,b);
   nb(a,b);
@@ -328,29 +328,36 @@ beginchar("V", 10pt#, 12pt#, 0);
   nf(a,b);
 endchar;
 
-beginchar ("a", 9pt#, 12pt#, 0);
-  alpha:=0.65;
-  beta:=0.24;
+% vu
+beginchar("W", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (0,0)--(0,h);
+  draw (w,0)--(w,h);
+  draw (w/5,h)--(2*w/5,0);
+  draw (2*w/5, 4*h/5)--(4*w/5,4*h/5);
+  draw (2*w/5, 2*h/5)--(4*w/5,2*h/5);
+endchar;
 
-  % define points
-  x1 = 0; y1 = 0.8*h;
-  x4 = w; y4 = 0.2*h;
-  y2 = h; y3 = 0;
-  x2 = (alpha-beta)*w;
-  x5 = alpha*w;
-  x3 = (alpha+beta)*w;
-  y5 = 0.5*h;
-  x6 = 0; y6 = 0.3*h;
-  x7 = 0.2*w; y7 = 0;
-  x8 = x5; y8 = 0.2*h;
+% yoe
+beginchar("X", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (0,0)--(0,h);
+  draw (0,h)--(w,h);
+  draw (w,h)--(w,0);
+  draw (0,h/4)--(w,h/2);
+endchar;
 
-  % define pen
-  pickup pencircle xscaled 0.2w yscaled 0.04w rotated 30;
+beginchar("Y", 10pt#, 10pt#, 0);
+  draw (0,0)--(w,h);
+endchar;
 
-  % draw
-  draw z1{dir 30}..z2{right}..z5{down}..z3{right}..z4{dir 30};
-  draw z5..z6{down}..z7{right}..z8;
-  penlabels(1,2,3,4,5,6,7,8);
+% jee
+beginchar("Z", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (w/2,0)--(w/2,h);
+  draw (w/4,h*0.4)--(w*0.75,h*0.4);
+  draw (w/8,h/2)--(w/8,h);
+  draw (w*0.75,h/2)--(w*0.85,h);
 endchar;
 
 end

@@ -8,15 +8,37 @@
 \newcommand{\DIG}[1]{\reflectbox{\foo #1}}
 \newcommand{\DIGA}{\DIG{A}}
 \newcommand{\DIGB}{\DIG{B}}
+\newcommand{\DIGC}{\DIG{C}}
+\newcommand{\DIGD}{\DIG{D}}
+\newcommand{\DIGE}{\DIG{E}}
+\newcommand{\DIGF}{\DIG{F}}
 
-\rotatebox{-90}{
+\newcommand{\LET}[1]{\rotatebox[origin=c]{-90}{\reflectbox{\foo #1}}}
+\newcommand{\VU}{\LET W}
+\newcommand{\YOE}{\LET X}
+\newcommand{\JEE}{\LET Z}
+\newcommand{\NE}{\LET a}
+\newcommand{\MOE}{\LET b}
+
+\newcommand{\SP}{\LET Y}
+
+\newcommand{\DOWN}[1]{\rotatebox{-90}{#1}}
+\newcommand{\UP}[1]{\rotatebox{-90}{\reflectbox{#1}}}
+
+\DOWN{
 \DIG0 \DIG1 \DIG2 \DIG3 \DIG4 \DIG5
 }
-\rotatebox{-90}{
-\reflectbox{\DIG6 \DIG7 \DIG8 \DIG9 \DIGA\ \DIGB}
+\UP{
+\DIG6 \DIG7 \DIG8 \DIG9 \DIGA\ \DIGB\
 }
-\rotatebox{-90}{
-\DIGC\ \DIGD\ \DIGE\ \DIGF
+\DOWN{
+\DIGC\ \DIGD\ \DIGE\ \DIGF\ \VU\ \YOE
+}
+\UP{
+\VU\ \YOE\ \JEE\ \NE\ \MOE\ \SP\
+}
+\DOWN{
+\SP\ \MOE\ \NE\ \JEE\ \YOE\ \VU
 }
 Did this work?
 

@@ -328,7 +328,62 @@ beginchar("V", 10pt#, 12pt#, 0);
   nf(a,b);
 endchar;
 
-beginchar("W", 10pt#, 12pt#, 0);
+% vu
+beginchar("W", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (0,0)--(0,h);
+  draw (w,0)--(w,h);
+  draw (w/5,h)--(2*w/5,0);
+  draw (2*w/5, 4*h/5)--(4*w/5,4*h/5);
+  draw (2*w/5, 2*h/5)--(4*w/5,2*h/5);
+endchar;
+
+% yoe
+beginchar("X", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (0,0)--(0,h);
+  draw (0,h)--(w,h);
+  draw (w,h)--(w,0);
+  draw (0,h/4)--(w,h/2);
+endchar;
+
+beginchar("Y", 10pt#, 10pt#, 0);
+  draw (0,0)--(w,h);
+endchar;
+
+% jee
+beginchar("Z", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (w/2,0)--(w/2,h);
+  draw (w/4,h*0.4)--(w*0.75,h*0.4);
+  draw (w/8,h/2)--(w/8,h);
+  draw (w*0.75,h/2)--(w*0.85,h);
+endchar;
+
+% ne
+beginchar("a", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (w/2,0)--(w/2,h);
+  draw (w*0.75,0)--(w*0.75,h);
+  draw (w/8,h*3/8)--(w/2,0);
+  draw (w/8,h*3/8)--(w/2,h*3/8);
+endchar;
+
+% moe
+beginchar("b", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  a:=w/5;
+  b:=h/5;
+  draw (a,b)--(a,h);
+  draw (a,b)--(4*a,b);
+  draw (a,b)--(1.5*a,0);
+  draw (1.5*a,0)--(4*a,b);
+  draw (2*a,h)--(2*a,h/2);
+  draw (3*a,h)--(3*a,3*b);
+  draw (4*a,b)--(w,2*b);
+  draw (w,2*b)--(w,h);
+  draw (w,2*b)--(4*a,h);
+  draw (2*a,2*b)--(3.5*a,2*b);
 endchar;
 
 end
