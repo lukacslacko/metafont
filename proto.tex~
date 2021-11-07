@@ -4,6 +4,7 @@
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{tipa}
+\usepackage{multirow}
 
 \title{Language}
 \author{L\'aszl\'o Luk\'acs}
@@ -57,12 +58,24 @@ The symbol for \Q{nene} is \DOWN{\NE\ \NE} and is pronounced \textipa{[nEnE]}.
 
 \section{Phonology}
 
-\begin{tabular}{c c c c c c c c}
+\begin{tabular}{c | c | c | c | c | c | c | c}
   & Bilabial & Labiodental & Dental & Alveolar & Palatal & Velar & Glottal \\
+\hline
 Plosive & \textipa{p} & & & \textipa{t} & \textipa{c} & \textipa{k} & \\
+\hline
 Nasal & \textipa{m} & \textipa{M} & & \textipa{n} & & & \\
+\hline
 Fricative & & \textipa{f} & \textipa{T} & \textipa{s} & & & \textipa{h} \\
+\hline
 Approximant & & & & & \textipa{j} & & \\
+\end{tabular}
+
+\begin{tabular}{c | c | c | c }
+\multirow{2} & \multicolumn{2}{| c |}{Front} & \multirow{2}{Back} \\
+\hline
+ Unrounded & Rounded \\
+\hline
+ Close & \textipa{i} & \textipa{y} & \textipa{u} \\
 \end{tabular}
 
 \section{Vocabulary}
