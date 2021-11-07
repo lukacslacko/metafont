@@ -45,6 +45,6 @@
 
 Did this work?
 
-The symbol for ne is \NE.
+The symbol for \pre{ne} is \DOWN\NE.
 
 \end{document}
