@@ -2,7 +2,7 @@
 \documentclass[a4paper]{article}
 \newfont{\foo}{proto}
 \usepackage{graphicx}
-
+\usepackage{textcomp}
 \begin{document}
 
 \newcommand{\DIG}[1]{\reflectbox{\foo #1}}
@@ -26,6 +26,8 @@
 \newcommand{\DOWN}[1]{\rotatebox[origin=c]{-90}{#1}}
 \newcommand{\UP}[1]{\rotatebox[origin=c]{-90}{\reflectbox{#1}}}
 
+\newcommand{\Q}[1]{\textlangle #1\textrangle}
+
 \DOWN{
 \DIG0 \DIG1 \DIG2 \DIG3 \DIG4 \DIG5
 }
@@ -45,6 +47,6 @@
 
 Did this work?
 
-The symbol for << ne >> is \DOWN\NE.
+The symbol for \Q{ne} is \DOWN\NE.
 
 \end{document}
