@@ -347,7 +347,7 @@ beginchar("X", 10pt#, 10pt#, 0);
   draw (0,h/4)--(w,h/2);
 endchar;
 
-beginchar("Y", 10pt#, 4pt#, 0);
+beginchar("Y", 4pt#, 10pt#, 0);
   draw (0,0)--(w,h);
   draw (w/2,h/2) withpen pencircle scaled 5;
 endchar;
