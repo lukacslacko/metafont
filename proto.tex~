@@ -126,7 +126,7 @@ Plurals have the \Q{-m\^e, -mi} suffix. For example:
 
 \subsection{Moods}
 
-\begin{table}
+\begin{table}[H]
 \begin{tabular}{c | c}
 Interrogative & \emph{n\"un\"u-, n\"on\"o-} \\
 \hline
@@ -140,7 +140,7 @@ Negative & \emph{ne-}
 \end{table}
 
 Examples:
-\begin{table}
+\begin{table}[H]
 \begin{tabular}{c | c}
 \emph{ko y\"o} & I see \\
 \emph{ko ney\"o} & I do not see \\
