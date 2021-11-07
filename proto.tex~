@@ -89,6 +89,11 @@ Open-mid & \textipa{E} (e) & & \\
 \caption{Vowels}
 \end{table}
 
+\subsection{Vowel harmony}
+
+Words contain either close and open-mid (i, \"u, u, e) or close-mid and
+open-mid (\^e, \"o, o, e) vowels.
+
 \subsection{Stress}
 
 In each word the first syllable is stressed.
@@ -100,6 +105,24 @@ Each syllable has a CV shape.
 \section{Vocabulary}
 
 \section{Grammar}
+
+\subsection{Word order}
+
+\begin{itemize}
+\item SVO: Subject, Verb, Object.
+\item Noun - adjective
+\item Posessor - posessee
+\item Preposition - noun
+\end{itemize}
+
+\subsection{Plurals}
+
+Plurals have the \Q{-nem\^e, -nemi} suffix. For example:
+\begin{tabular}{c | c}
+y\"o & y\"onem\^e \\
+\hline
+fij\"u & fij\"unemi
+\end{tabular}
 
 \section{Writing}
 
