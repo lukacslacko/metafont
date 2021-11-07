@@ -3,6 +3,7 @@
 \newfont{\foo}{proto}
 \usepackage{graphicx}
 \usepackage{textcomp}
+\usepackage[tipa]
 \begin{document}
 
 \newcommand{\DIG}[1]{\reflectbox{\foo #1}}
@@ -47,6 +48,6 @@
 
 Did this work?
 
-The symbol for \Q{ne} is \DOWN\NE.
+The symbol for \Q{nene} is \DOWN{\NE\ \NE} and is pronounced \textipa{[nEnE]}.
 
 \end{document}
