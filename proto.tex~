@@ -124,6 +124,33 @@ Plurals have the \Q{-m\^e, -mi} suffix. For example:
 \emph{fij\"une} (mouth) & \emph{fij\"unemi} (mouths)
 \end{tabular}
 
+\subsection{Moods}
+
+\begin{table}
+\begin{tabular}{c | c}
+Interrogative & \emph{n\"un\"u-, n\"on\"o-} \\
+\hline
+Negative & \emph{ne-} \\
+\hline
+Abilitative & \emph{joko-, juku-} \\
+\hline
+Negative & \emph{ne-}
+\end{tabular}
+\caption{Mood prefixes}
+\end{table}
+
+Examples:
+\begin{table}
+\begin{tabular}{c | c}
+\emph{ko y\"o} & I see \\
+\emph{ko ney\"o} & I do not see \\
+\emph{ko jokoy\"o} & I can see \\
+\emph{ko nejokoy\"o} & I cannot see \\
+\emph{ko nejokoney\"o} & I cannot not see 
+\end{tabular}
+\end{table}
+
+
 \section{Writing}
 
 
