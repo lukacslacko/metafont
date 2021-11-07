@@ -58,8 +58,8 @@ The symbol for \Q{nene} is \DOWN{\NE\ \NE} and is pronounced \textipa{[nEnE]}.
 
 \section{Phonology}
 
+\begin{table}
 \begin{tabular}{c | c | c | c | c | c | c | c}
-\caption{Consonants}
   & Bilabial & Labiodental & Dental & Alveolar & Palatal & Velar & Glottal \\
 \hline
 Plosive & \textipa{p} & & & \textipa{t} & \textipa{c} & \textipa{k} & \\
@@ -70,9 +70,10 @@ Fricative & & \textipa{f} & \textipa{T} & \textipa{s} & & & \textipa{h} \\
 \hline
 Approximant & & & & & \textipa{j} & & \\
 \end{tabular}
+\caption{Consonants}
+\end{table}
 
 \begin{tabular}{c | c | c | c }
-\caption{Vowels}
 \multirow{2}{2em}{} & \multicolumn{2}{| c |}{Front} & \multirow{2}{2em}{Back} \\
 \cline{2-3}
  & Unrounded & Rounded & \\
