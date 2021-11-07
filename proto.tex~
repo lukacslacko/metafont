@@ -45,6 +45,6 @@
 
 Did this work?
 
-The symbol for \pre{ne} is \DOWN\NE.
+The symbol for \langle ne\rangle is \DOWN\NE.
 
 \end{document}
