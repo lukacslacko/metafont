@@ -5,6 +5,7 @@
 \usepackage{textcomp}
 \usepackage{tipa}
 \usepackage{multirow}
+\usepackage{float}
 
 \title{Language}
 \author{L\'aszl\'o Luk\'acs}
