@@ -80,9 +80,9 @@ Approximant & & & & & \textipa{j} & & \\
 \cline{2-3}
  & Unrounded & Rounded & \\
 \hline
- Close & \textipa{i} & \textipa{y} (\:u) & \textipa{u} \\
+ Close & \textipa{i} & \textipa{y} (\"u) & \textipa{u} \\
 \hline
-Close-mid & \textipa{e} (\^e) & \textipa{\o} (\:o) & \textipa{o} \\
+Close-mid & \textipa{e} (\^e) & \textipa{\o} (\"o) & \textipa{o} \\
 \hline
 Open-mid & \textipa{E} (e) & & \\
 \end{tabular}

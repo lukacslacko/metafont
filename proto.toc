@@ -1,4 +1,6 @@
 \contentsline {section}{\numberline {1}Phonology}{1}%
+\contentsline {subsection}{\numberline {1.1}Stress}{2}%
+\contentsline {subsection}{\numberline {1.2}Syllables}{2}%
 \contentsline {section}{\numberline {2}Vocabulary}{2}%
 \contentsline {section}{\numberline {3}Grammar}{2}%
 \contentsline {section}{\numberline {4}Writing}{2}%
