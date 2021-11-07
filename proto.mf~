@@ -349,7 +349,7 @@ endchar;
 
 beginchar("Y", 10pt#, 10pt#, 0);
   draw (0,0)--(w,h);
-  draw (w/2,h/2) with pencircle scaled 5;
+  draw (w/2,h/2) withpen pencircle scaled 5;
 endchar;
 
 % jee
