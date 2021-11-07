@@ -63,11 +63,11 @@ The symbol for \Q{nene} is \DOWN{\NE\ \NE} and is pronounced \textipa{[nEnE]}.
 \begin{tabular}{c | c | c | c | c | c | c | c}
   & Bilabial & Labiodental & Dental & Alveolar & Palatal & Velar & Glottal \\
 \hline
-Plosive & \textipa{p} & & & \textipa{t} & \textipa{c} & \textipa{k} & \\
+Plosive & \textipa{p} & & & \textipa{t} & \textipa{c} (y) & \textipa{k} & \\
 \hline
-Nasal & \textipa{m} & \textipa{M} & & \textipa{n} & & & \\
+Nasal & \textipa{m} & \textipa{M} (w) & & \textipa{n} & & & \\
 \hline
-Fricative & & \textipa{f} & \textipa{T} & \textipa{s} & & & \textipa{h} \\
+Fricative & & \textipa{f} & \textipa{T} (v) & \textipa{s} & & & \textipa{h} \\
 \hline
 Approximant & & & & & \textipa{j} & & \\
 \end{tabular}
@@ -80,11 +80,11 @@ Approximant & & & & & \textipa{j} & & \\
 \cline{2-3}
  & Unrounded & Rounded & \\
 \hline
- Close & \textipa{i} & \textipa{y} & \textipa{u} \\
+ Close & \textipa{i} & \textipa{y} (\:u) & \textipa{u} \\
 \hline
-Close-mid & \textipa{e} & \textipa{\o} & \textipa{o} \\
+Close-mid & \textipa{e} (\^e) & \textipa{\o} (\:o) & \textipa{o} \\
 \hline
-Open-mid & \textipa{E} & & \\
+Open-mid & \textipa{E} (e) & & \\
 \end{tabular}
 \caption{Vowels}
 \end{table}
