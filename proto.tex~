@@ -49,10 +49,10 @@
 \DIGC\ \DIGD\ \DIGE\ \DIGF\ \VU\ \YOE
 }
 \UP{
-\VU\ \YOE\ \JEE\ \NE\ \MOE\ \KI\
+\VU\ \YOE\ \JEE\ {\foo .}\ \MOE\ \KI\
 }
 \DOWN{
-\KI\ \SP\ \NE\ \JEE\ \YOE\ \VU
+\KI\ \SP\ \NE\ {\foo ,}\ \YOE\ \VU
 }
 
 The symbol for \Q{nene} is \DOWN{\NE\ \NE} and is pronounced \textipa{[nEnE]}.
