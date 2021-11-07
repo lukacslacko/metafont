@@ -71,9 +71,8 @@ Approximant & & & & & \textipa{j} & & \\
 \end{tabular}
 
 \begin{tabular}{c | c | c | c }
-\multirow{2}{2em}{} & \multicolumn{2}{| c |}{Front} & \multirow{2}{2em}{Back} \\
-\hline
- Unrounded & Rounded \\
+\multirow{2}{2em}{} & \multicolumn{2}{| c |}{Front \hline} & \multirow{2}{2em}{Back} \\
+ & Unrounded & Rounded & \\
 \hline
  Close & \textipa{i} & \textipa{y} & \textipa{u} \\
 \end{tabular}
