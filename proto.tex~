@@ -3,7 +3,7 @@
 \newfont{\foo}{proto}
 \usepackage{graphicx}
 \usepackage{textcomp}
-\usepackage[tipa]
+\usepackage{tipa}
 \begin{document}
 
 \newcommand{\DIG}[1]{\reflectbox{\foo #1}}
