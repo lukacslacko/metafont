@@ -347,7 +347,8 @@ beginchar("X", 10pt#, 10pt#, 0);
   draw (0,h/4)--(w,h/2);
 endchar;
 
-beginchar("Y", 4pt#, 10pt#, 0);
+% space
+beginchar("Y", 10pt#, 10pt#, 0);
   draw (0,0)--(w,h);
   draw (w/2,h/2) withpen pencircle scaled 5;
 endchar;
@@ -397,6 +398,19 @@ beginchar("c", 10pt#, 10pt#, 0);
   draw (w/2,h/2)--(w/2,0);
   draw (a,h/2)--(a,h);
   draw (3*a,h/2)--(w,h);
+endchar;
+
+% comma
+beginchar(",", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (0,h/2)--(w,h/2);
+endchar;
+
+% period
+beginchar(".", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  draw (0, h/3)--(w,h/3);
+  draw (0, 2*h/3)--(w, 2*h/3);
 endchar;
 
 end

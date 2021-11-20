@@ -413,4 +413,16 @@ beginchar(".", 10pt#, 10pt#, 0);
   draw (0, 2*h/3)--(w, 2*h/3);
 endchar;
 
+% jo
+beginchar("d", 10pt#, 10pt#, 0);
+  pickup pencircle scaled 5;
+  a:=w/4;
+  b:=h/4;
+  draw (a/2,0)--(0,h);
+  draw (a,0)--(a,h/2);
+  draw (3*a,0)--(3*a,h/2);
+  draw (1.5*a,h/2)--(2.5*a,h/2);
+  draw (3.5*a,0)--(3.5*a,h);
+endchar;
+
 end
